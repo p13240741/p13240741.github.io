@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	}
+
+/* Header & Navigation Start */
+@font-face {
+
+	font-family: bebasneue;
+	src: url(BebasNeue.otf);
+	}
+
+.header {
+	position: fixed;
+	background-color: #060606;
+	height: 100px;
+	width: 100%;
+	top: 0;
+	border-left: 60px solid #fad400;
+	z-index:100000;
+	}
+
+.header h1{
+
+	font-family: bebasneue;
+	font-size: 45px;
+	position: absolute;
+	padding: 0px 40px;
+	color: #fad400;
+
+	}
+
+ul#navigation {
+	font-family: bebasneue;
+	float: right;  
+	margin:30px 150px 0px 0px;
+	padding:10px;
+	list-style:none;
+	font-size: 16px;
+
+	}
+
+ul#navigation li {
+	  display:inline;
+	}
+
+ul#navigation li a {
+	 text-decoration:none;
+	 padding:5px;
+	 width:100px;
+	 color: #fad400;
+	 float:right;
+	}
+
+ul#navigation li a:hover {
+    background:#f3c202;
+    color:#000;
+    }
+
+img#stadiumbg {
+
+	width: 100%;
+	height: 50%;
+
+	}
+
+video {
+	height: 350px;
+	width: auto;
+	overflow: hidden;
+	z-index: 900;
+	position: absolute;
+	top: 190px;
+	left: 50px;
+	border: 7px solid #fad400;
+	}
+
+img#reus {
+
+	position: absolute;
+	z-index: 800;
+	top: 120px;
+	left: 600px;
+
+	}
+
+div#thegame{
+	height: 300px;
+	width: 100%;
+	background-color: #fad400;
+	position: relative;
+	top: -50px;
+	z-index: 700;
+	box-sizing:border-box; 
+	border-right:600px solid #000; 
+	}
+
+#thegame p{
+	color: white;
+	text-align: center;
+	font-family: bebasneue;
+	padding: 30px;
+	font-size: 40px;
+	}
+
+div#thegame2 {
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+	position: relative;
+	top: -70px;
+	z-index: 700;
+	box-sizing:border-box; 
+	border-right:600px solid #fad400; 
+	}
+
+#thegame2 p{
+
+	color: white;
+	text-align: center;
+	font-family: bebasneue;
+	padding: 30px;
+	font-size: 30px;
+	margin-top: 10px;
+	z-index: 600;
+	}
+
+img#cronaldo {
+
+	width: 100%;
+	height: 10%;
+	margin-top: -100px;
+	box-sizing:border-box;
+	border-right: 700px solid #000;
+
+}
+
+div#history{
+	width: 700px;
+	position: absolute;
+	z-index: 700;
+	left: 400px;
+	color: white;
+	margin-top: -5px;
+	font-family: bebasneue;
+}
+
+#history h3{
+
+	font-size: 25px;
+}
+
+#teams {
+margin-top: -2px;
+position: relative;
+width: 100%;
+height: 380px;
+background-image:url('Images/teamsbg.png');
+overflow: hidden;
+opacity: 0.8;
+}
+
+
+#teams img {
+padding: 25px 10px 25px 10px ;
+display: inline;
+margin: 0 30px;
+opacity: 1;
+}
+
+#teams img:hover {
+opacity:0.7;
+}
+
+#footer {
+
+height: 200px;
+width: 100%;
+background-color: #000;
+margin-top: -15px;
+border-bottom: 3px solid #fad400;
+}
+
