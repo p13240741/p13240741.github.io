@@ -9,12 +9,14 @@ body {
 	margin: 0 auto;
 	}
 
-/* Header & Navigation Start */
+
 @font-face {
 
 	font-family: bebasneue;
 	src: url(BebasNeue.otf);
 	}
+
+/* Header & Navigation Start - css */
 
 .header {
 	position: fixed;
@@ -63,6 +65,8 @@ ul#navigation li a:hover {
     color:#000;
     }
 
+/* Main Images  & Video on website - css */
+
 img#stadiumbg {
 
 	width: 100%;
@@ -89,6 +93,8 @@ img#reus {
 	left: 600px;
 
 	}
+
+/* The Game section - css*/
 
 div#thegame{
 	height: 300px;
@@ -131,6 +137,8 @@ div#thegame2 {
 	z-index: 600;
 	}
 
+/* History section - css */
+
 img#cronaldo {
 
 	width: 100%;
@@ -156,34 +164,61 @@ div#history{
 	font-size: 25px;
 }
 
+/* Teams section - css */
+
 #teams {
-margin-top: -2px;
-position: relative;
-width: 100%;
-height: 380px;
-background-image:url('images/teamsbg.png');
-overflow: hidden;
-opacity: 0.8;
+	margin-top: -2px;
+	position: relative;
+	width: 100%;
+	height: 380px;
+	background-image:url('images/teamsbg.png');
+	overflow: hidden;
+	opacity: 0.8;
 }
 
 
 #teams img {
-padding: 25px 10px 25px 10px ;
-display: inline;
-margin: 0 30px;
-opacity: 1;
+	padding: 25px 10px 25px 10px ;
+	display: inline;
+	margin: 0 30px;
+	opacity: 1;
 }
 
 #teams img:hover {
-opacity:0.7;
+	opacity:0.7;
 }
+
+/* About section - css */
+
+#about {
+
+	height: 200px;
+	width: 100%;
+	background-color: #fad400;
+	color: white;
+	padding-top: 10px;
+	font-family: bebasneue;
+	font-size: 20px;
+}
+
+#about h3{
+
+	font-size: 50;
+}
+
+/* Footer section - css */
 
 #footer {
 
-height: 200px;
-width: 100%;
-background-color: #000;
-margin-top: -15px;
-border-bottom: 3px solid #fad400;
+	height:100px;
+	background-color: #000;
+	width: 100%;
+	margin-top: -20px;
 }
 
+#footer p{
+
+	color: white;
+	position: relative;
+	top: 50px;	
+}
